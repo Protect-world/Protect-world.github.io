@@ -1,0 +1,29 @@
+{
+  "name": "Self_Blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "blog_docs:dev": "vitepress dev blog_docs",
+    "blog_docs:build": "vitepress build blog_docs",
+    "blog_docs:serve": "vitepress serve blog_docs",
+    "blog_docs:deploy": "bash deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "1.0.0-rc.33",
+    "vitepress-plugin-pagefind": "^0.2.10"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.10",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.19.2"
+  }
+}
