@@ -6,6 +6,7 @@ export default {
   lastUpdated: true,
   title: name,
   description,
+  base:'/',
   outDir:'../dist',
   vite:{
     plugins:
