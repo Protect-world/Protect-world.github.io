@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "blog_docs:dev": "vitepress dev blog_docs",
-    "blog_docs:build": "vitepress build blog_docs",
-    "blog_docs:serve": "vitepress serve blog_docs",
-    "blog_docs:deploy": "bash deploy.sh",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "docs:deploy": "bash deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
 
   },
