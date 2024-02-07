@@ -91,7 +91,7 @@ export default {
           }
         ],
       },
-     ]  
+     ]   
     },
 
     aside:true,
@@ -100,7 +100,7 @@ export default {
     // 文章末尾上下一页
     docFooter: { prev: '上一篇', next: '下一篇' },
     editLink: {
-      pattern: `${github}/tree/main/blog_docs/:path`,
+      pattern: `${github}/tree/master/blog_docs/:path`,
       text: 'Edit this page on GitHub'
     },
 
